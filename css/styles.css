@@ -1,0 +1,55 @@
+@import 'https://fonts.googleapis.com/css?family=Quattrocento+Sans';
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+a, a:hover, a:active, a:focus, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+li:after {
+  content: ' | ';
+}
+li:last-of-type:after {
+  content: '';
+}
+
+.intro {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50%;
+  height:100vh;
+  margin:auto;
+  overflow: auto;
+}
+
+/* centering portfolio content */
+.portfolio-wrapper {
+  min-height: 300px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*resize: both;*/
+  overflow: auto;
+}
+.portfolio-text {
+  width: 100%;
+  /*resize: both;*/
+  overflow: auto;
+}
+
+/* parallax.js */
+.parallax-window {
+  min-height: 600px;
+  background: transparent;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "heathernfran.github.io",
+  "authors": [
+    "Heather Frantisak <heathernfran@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "parallax.js": "^1.4.2",
+    "jquery": "2"
+  }
+}
