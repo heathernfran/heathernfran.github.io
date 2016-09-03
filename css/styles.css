@@ -8,6 +8,8 @@ a, a:hover, a:active, a:focus, a:visited {
   text-decoration: none;
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 li {
@@ -20,12 +22,16 @@ li:last-of-type:after {
   content: '';
 }
 
+.intro-wrapper {
+  height: 100vh;
+}
 .intro {
-  display:flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
   justify-content:center;
   align-items:center;
   width:50%;
-  height:100vh;
   margin:auto;
   overflow: auto;
 }
