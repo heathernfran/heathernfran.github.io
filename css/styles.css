@@ -59,3 +59,12 @@ li:last-of-type:after {
   min-height: 600px;
   background: transparent;
 }
+
+@media only screen and (max-width: 767px) {
+  .intro {
+    width: 85%;
+  }
+  .parallax-window {
+    min-height: 300px;
+  }
+}
